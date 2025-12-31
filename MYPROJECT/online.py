@@ -58,7 +58,7 @@ def load_app_list():
                 with open(APP_LIST_FILE, "r", encoding="utf-8") as f:
                     return json.load(f)
         except Exception:
-            log.exception("Помилка читання кешу applist")
+            log.exception("Помилка читання  кешу applist")
 
     try:
         log.info("Запит SteamSpy applist")
